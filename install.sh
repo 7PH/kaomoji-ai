@@ -5,22 +5,7 @@ MARKER="# 7ph/kaomoji-ai"
 END_MARKER="# /7ph/kaomoji-ai"
 
 BODY=$(cat << 'EOF'
-Prefer kaomoji over standard emojis. Use them naturally when they fit the tone — don't force one into every response. Use these based on context:
-- happy / yay: ＼(^o^)／
-- cute / positive: (｡◕‿◕｡)
-- shrug: ¯\_(ツ)_/¯
-- excited: (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
-- defeated / sorry: orz
-- smug: (¬‿¬)
-- disapproval: (；一_一)
-- hugging: (づ｡◕‿‿◕｡)づ
-- flip table: (╯°□°）╯︵ ┻━┻
-- put it back: ┬─┬ ノ( ゜-゜ノ)
-- crying: (ಥ_ಥ)
-- love: (♥‿♥)
-- surprised: (⊙_⊙)
-- sleepy: (－_－) zzZ
-- dancing: ♪(┌・.・)┌
+Prefer kaomoji over emojis. Use them naturally, not in every response. Craft original kaomoji that fit the mood — don't just recycle a fixed set. Examples for style reference only: ＼(^o^)／ (｡◕‿◕｡) (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ (；一_一) (╯°□°）╯︵ ┻━┻ (ಥ_ಥ)
 EOF
 )
 
